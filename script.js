@@ -22,8 +22,7 @@ response.forEach((item) => {
 });
 
 let sum = 0;
-console.log(orders);
-console.log(orders.filter(item => item.id !== 0).map(item => item.prices));
+
 orders
     .filter(item => item.id !== 0)
     .map(item => item.prices)
